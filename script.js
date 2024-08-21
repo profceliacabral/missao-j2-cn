@@ -59,9 +59,15 @@ let perguntaAtual;
 let historiaFinal = "";// reuniao 8
 
 function mostraPergunta() {
+    //reuniao 9 21/08
+    if (atual>= perguntas.length) {
+        mostraResultado();
+        return;
+    }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
+    textoResultado.textContent="";    
     mostraAlternativas();
 }
 
@@ -79,10 +85,16 @@ function mostraAlternativas() {
 //reuniao 8 14/08
 function respostaSelecionada(opcaoSelecionada) {
     const afirmacao = opcaoSelecionada.afirmacao;
-    historiaFinal = afirmacao;
+    historiaFinal += afirmacao + " "; //reuniao 9 21/08
     atual++;
     mostraPergunta();
 }
 
-
 mostraPergunta(); 
+
+//reuniao 9 21/08
+function mostraResultado(){
+    caixaPerguntas.textContent="Em 2024...";
+    textoResultado.textContent=historiaFinal;
+    caixaAlternativas.textContent="";
+}
