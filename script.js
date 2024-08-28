@@ -21,10 +21,10 @@ const perguntas = [
         alternativas: [
             // reuniao 7 07/08
             {texto: "A prática da castração de animais deve ser vista como uma medida necessária para controlar a superpopulação e promover a saúde dos animais, alinhando-se com a ideia de que menos animais significa mais qualidade de vida para cada um deles.",
-            afirmacao: "colocar afirmacao na aula"
+            afirmacao: "a tribo permite a castração de algumas especies de animais  para controle"
             },
             {texto: "A castração de animais pode ser vista como uma intervenção desnecessária que interfere nos processos naturais de reprodução, desconsiderando que os ecossistemas têm capacidade de ajustar suas populações naturalmente.",
-            afirmacao: "colocar afirmacao na aula"
+            afirmacao: "A tribo entende que a reprodução é necessario e nao deve ser contida."
             }
         ]
     },
@@ -32,10 +32,10 @@ const perguntas = [
         alternativas: [
             // reuniao 7 07/08
              {texto: "Desafiador.",
-              afirmacao: "colocar afirmacao na aula"
+              afirmacao: "A cultura dos povos indígenas é rica e caracteriza-se pela intensa relação com a natureza. A questão da procriação é natural e vista como comum."
             },
             {texto: "Apoiam as medidas já tomadas.",
-                afirmacao: "colocar afirmacao na aula"
+                afirmacao: "Em algumas culturas indígenas, a castração pode ser realizada por meio de métodos que utilizam ervas ou técnicas de restrição que são menos invasivas comparadas às cirurgias modernas. Isso reflete uma abordagem de menos é mais."
             }    
          ]
     },
@@ -43,10 +43,10 @@ const perguntas = [
         alternativas: [
             // reuniao 7 07/08
              {texto: "Uso das redes sociais para apoio e divulgação das ações.",
-             afirmacao: "colocar afirmacao na aula"
+             afirmacao: "Uso das redes sociais para apoio e divulgação das ações"
             },
             {texto: "Ser parceiro das ações.",
-                afirmacao: "colocar afirmacao na aula"
+                afirmacao: "Uso das redes sociais para apoio e divulgação das ações"
             } 
          ]
     }
