@@ -10,10 +10,10 @@ const perguntas = [
     {enunciado: "1 - Qual a sua profissao?",
         alternativas: [
                     {texto: "professor",
-                    afirmacao:"haaa coitado"
+                    afirmacao:"teste professor"
                     },
                     {texto: "cozinheiro",
-                    afirmacao: "sempre necessario"
+                    afirmacao: "teste cozinheiro"
                     }
         ]
     },
